@@ -1,0 +1,44 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    We can trace back the changes and check which changes are not we desired . And then we can reverse them back
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    We can compare two different versions
+We can trace bugs more easily
+we can restore to any version back in time
+We can undo changes and correct our mistakes. It’s like going back in time to do things the way you want.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    pros of manual committing : Logically this will be more accurate. As we will able to cluster changes in a better way
+	Number of versions would be limited and more user-defined. So more ease of understanding
+
+cons: manual error may come in. Sometimes the user might simply forget committing
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Version control systems like GIT are dealing with files that are inter-related so saving multiple files in one commit is useful and necessary
+
+However , in vis like google docs, it’s usually a single file that’s changed so saving multiple file in one commit does not makes much sense.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log will give us a log of all the commits
+With “git diff” we can find the difference between any commit in the past and the present version
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    With version control we can easily move back to code which was working , if the current code has some bugs in it.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    To develop mobile app. Need to understand git to download good modules to fit into my app.
