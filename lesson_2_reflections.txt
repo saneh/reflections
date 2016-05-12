@@ -7,4 +7,8 @@ Staging area is a kind of mid-stop between working directory and the repository 
 How can you use the staging area to make sure you have one commit per logical change?
 We can add changes per logical change to the staging area and then commit those changes to repository
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+With branches, we can checkout two separate versions without having to remember the commit number. We can do multiple changes parallel and even we thing we need to undo a series of steps, we can simply revert to the master branch.
+
+
 
