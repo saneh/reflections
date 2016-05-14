@@ -13,3 +13,12 @@ With branches, we can checkout two separate versions without having to remember 
 How do the diagrams help you visualize the branch structure?
 Gives a more graphical representation of what is actually happening in the background.
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+ Merge successful. Woohoo!
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+automatic merging : might not be logically accurate in some the cases. Where the changes in two commits are different version of same logical action.
+Pros: It makes merging less painful
+
+Always manual merging will be quite time consuming and tedious
+
