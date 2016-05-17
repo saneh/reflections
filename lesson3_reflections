@@ -1,1 +1,10 @@
 When would you want to use remote repository, rather than storing on your local directory?
+When multiple people might want to make changes to a same file
+When we want to access files from multiple location
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+If git automatically syncs with our local repository then there might be many commits which are logically not accurate, i.e. they do not define a single logical change
+
+
+
