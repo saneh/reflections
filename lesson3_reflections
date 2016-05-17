@@ -7,4 +7,16 @@ Why might you want to always pull changes manually rather than having Git automa
 If git automatically syncs with our local repository then there might be many commits which are logically not accurate, i.e. they do not define a single logical change
 
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
+Fork : is a copy of a git repo on git-hub into another account on gib -hub
+Clone : When you download a git repo from git-hub onto your local machine
+Branches:branch is a series of reachable commit starting from the tip of the branch i.e. the last commit
+
+Fork is for cloning other projects on git-hub, when we also want to link back to the original and need to make a copy on gib-hub itself
+
+Clone , when we download the repo so that we can make our changes offline
+Branch When we wan too add a commit in a logical sequence
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+With a copy of last known state we can easily pull any changes made in the remote, also with git diff ew can compare what new changes are added in the meantime
