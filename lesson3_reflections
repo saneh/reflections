@@ -20,3 +20,19 @@ Branch When we wan too add a commit in a logical sequence
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 With a copy of last known state we can easily pull any changes made in the remote, also with git diff ew can compare what new changes are added in the meantime
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+We need to have a common file with all the updates and a master file which will show the final updated version. Also need to keep track of all edit requests , need to keep the version updated with latest changes
+
+Sharing the code with others would be difficult
+Code updating will be difficult
+how to keep track of different versions?
+how to keep the final code working
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+When we want to make changes and get feedback on our branch , before actually committing to the master branch.
+It gives us feedback
+Also it keeps the changes contained.
+also helps in creating a pull request to get feedback from other users.
+
